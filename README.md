@@ -1,6 +1,11 @@
-# Dsize
+# Dsizer
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
+
+# Important Packages
+1. ngx-dropzone
+2. jquery
+3. jquery-ui
 
 ## Development server
 
