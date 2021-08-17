@@ -1,0 +1,39 @@
+.drop-zone{
+    display: flex;
+    justify-content: center;
+
+    ngx-dropzone{
+        width: 50%;
+    }
+}
+#container {
+    margin-top: 12px;
+    margin-right: auto;
+    margin-bottom: 12px;
+    margin-left: auto;
+    background-color: #CFC;
+    padding: 7px;
+    width: 960px;
+}
+
+.close {
+    position: absolute;
+    cursor: pointer;
+    top: 4px;
+    right: 4px;
+    z-index: 100;
+    color: red;
+    font-weight: bold;
+}
+
+div {
+   width:300px;
+   height:180px;
+   position:relative;
+   overflow:hidden;
+   cursor:move;
+   border:1px dashed #444;
+}
+img{
+    background-size:cover;
+}

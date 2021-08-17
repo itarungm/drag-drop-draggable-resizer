@@ -3,15 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { NgxDropzoneModule } from 'ngx-dropzone';
+import { DsizerDirective } from './Directive/dsizer.directive';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DsizerDirective
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-  ],
+    AppRoutingModule,
+    NgxDropzoneModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
